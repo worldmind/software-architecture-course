@@ -1,0 +1,12 @@
+Package: uwsgi-stat-example
+Version: 1.0
+Architecture: all
+Maintainer: Alexey Shrub <ashrub@yandex.ru>
+Installed-Size: 38063
+Depends: postgresql, libdbi-perl, libdbd-pg-perl, uwsgi, uwsgi-plugin-psgi
+Section: perl devel
+Priority: optional
+Homepage: worldmind.lj.ru
+Description: Collection of examples for my learning course
+ about software architecture based on simple  web statistics
+ application

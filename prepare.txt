@@ -19,3 +19,17 @@ sudo aptitude install cpanminus
 sudo aptitude install libdata-uuid-perl
 sudo aptitude install libdbi-perl
 sudo aptitude install libdbd-pg-perl
+
+sudo aptitude install uwsgi uwsgi-plugin-psgi
+
+du -s -b uwsgi-stat-example/
+perl -i -pe 's/Installed-Size: \d+/Installed-Size: 37906/g' uwsgi-stat-example/DEBIAN/control
+find opt/ etc/ -type f -exec md5sum {} ";" > DEBIAN/md5sums
+dpkg-deb -b uwsgi-stat-example/
+
+sudo dpkg -i uwsgi-stat-example.deb
+#sudo dpkg --purge uwsgi-stat-example
+
+sudo aptitude install curl
+
+sudo aptitude install libipc-run3-perl
