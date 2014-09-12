@@ -34,3 +34,5 @@ sudo dpkg -i uwsgi-stat-example.deb
 sudo aptitude install curl
 
 sudo aptitude install libipc-run3-perl
+
+./make-deb.pl;./install.sh

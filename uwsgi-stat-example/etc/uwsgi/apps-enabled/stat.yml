@@ -1,0 +1,6 @@
+uwsgi:
+  psgi: /opt/uwsgi-stat-example/01-stat.psgi
+  processes: 2
+  master: true
+  listen: 13666
+  buffer-size: 65535

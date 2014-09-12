@@ -2,7 +2,7 @@ Package: uwsgi-stat-example
 Version: 1.0
 Architecture: all
 Maintainer: Alexey Shrub <ashrub@yandex.ru>
-Installed-Size: 38071
+Installed-Size: 37761
 Depends: postgresql, libdbi-perl, libdbd-pg-perl, uwsgi, uwsgi-plugin-psgi
 Section: perl devel
 Priority: optional

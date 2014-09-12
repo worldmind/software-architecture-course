@@ -1,4 +1,4 @@
-#!/usr/nin/perl -w
+#!/usr/bin/perl -w
 use strict;
 use v5.10;
 use IPC::Run3;
