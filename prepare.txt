@@ -1,3 +1,4 @@
+sudo aptitude install git
 sudo aptitude install postgresql
 cat software_architecture_course/sql/create_db_and_user.sql | sudo -u postgres psql
 ln -s software_architecture_course/.pg_service.conf ~/.pg_service.conf

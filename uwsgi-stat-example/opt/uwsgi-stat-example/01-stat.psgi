@@ -3,6 +3,6 @@ my $app = sub {
      return [
              '200',
              [ 'Content-Type' => 'text/html' ],
-             [ "<h1>Hello World</h1>" ],
+             [ "<h1>Hello Strange World</h1>" ],
      ];
 };
