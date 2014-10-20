@@ -10,7 +10,7 @@ Software architecture course based on simple web application
 
     sudo aptitude install git postgresql libdata-uuid-perl libdbi-perl libdbd-pg-perl nginx uwsgi uwsgi-plugin-psgi curl libipc-run3-perl
 
-### COnfigure postgresql client and server, create database/table and load random data
+### Configure postgresql client and server, create database/table and load random data
 
     ln -s software_architecture_course/.pg_service.conf ~/.pg_service.conf
     ln -s software_architecture_course/.pgpass ~/.pgpass
